@@ -63,6 +63,11 @@ p {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+  .custom-accordion-item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+  }
   .custom-wrapper {
     overflow-x: scroll;
   }
