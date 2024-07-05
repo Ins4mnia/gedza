@@ -1,77 +1,13 @@
 * {
   font-family: Montserrat;
 }
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
   margin: 0;
-}
-
-.accordion {
-  --bs-accordion-border-color: 0 !important;
-  --bs-accordion-inner-border-radius: 0 !important;
-}
-.accordion-button::after {
-  flex-shrink: 0;
-  width: var(--bs-accordion-btn-icon-width);
-  height: var(--bs-accordion-btn-icon-width);
-  margin-left: 0 !important;
-  content: "";
-  background-image: var(--bs-accordion-btn-icon);
-  background-repeat: no-repeat;
-  background-size: var(--bs-accordion-btn-icon-width);
-  transition: var(--bs-accordion-btn-icon-transition);
-}
-.custom-heading-text {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-}
-@media (max-width: 1000px) {
-  .custom-heading-text {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 23.4px;
-  }
-}
-@media (max-width: 768px) {
-  .custom-heading-text {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 20.8px;
-  }
-}
-
-.custom-accordion-heading-text {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-}
-
-.custom-padding {
-  padding: 10px 20px;
-}
-
-.custom-accordion-item-img {
-  width: 30px;
-  height: 30px;
-}
-
-.custom-accordion-item-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20.8px;
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-  .custom-accordion-item-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18.2px;
-  }
-  .custom-wrapper {
-    overflow-x: scroll;
-  }
-  .custom-container {
-    width: 728px !important;
-  }
 }
